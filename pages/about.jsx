@@ -1,8 +1,7 @@
-import Link from 'next/link';
 import Footer from '../components/shared/Footer';
 import Header from '../components/shared/Header';
 
-export default function Home() {
+const About = () => {
   return (
     <div>
       <header className="bg-gray1">
@@ -10,9 +9,7 @@ export default function Home() {
       </header>
 
       <main>
-        <Link href="/about">
-          <a title="About">About</a>
-        </Link>
+        <h1>About Page</h1>
       </main>
 
       <footer>
@@ -20,4 +17,6 @@ export default function Home() {
       </footer>
     </div>
   );
-}
+};
+
+export default About;
