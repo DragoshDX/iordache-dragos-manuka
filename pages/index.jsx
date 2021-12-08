@@ -4,7 +4,7 @@ import Header from '../components/shared/Header';
 export default function Home() {
   return (
     <div>
-      <header>
+      <header className="bg-gray1">
         <Header></Header>
       </header>
 
